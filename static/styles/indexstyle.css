@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('your-background-image.jpg'); /* Add your custom background */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.welcome-container {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.welcome-content h1 {
+    font-size: 3em;
+    color: #005b96;
+    margin-bottom: 20px;
+}
+
+.welcome-content p {
+    font-size: 1.2em;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.start-button {
+    background-color: #005b96;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1.2em;
+    transition: background-color 0.3s ease;
+}
+
+.start-button:hover {
+    background-color: #101112;
+    font-size: large;
+    font-style: italic;
+
+}

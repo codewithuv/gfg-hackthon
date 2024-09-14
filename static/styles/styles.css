@@ -1,0 +1,90 @@
+/* Basic styling for the HTML body */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f8ff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container for the form */
+.login {
+    /* background-image:url('WhatsApp\ Image\ 2024-09-14\ at\ 11.26.41_2a17a26a.jpg'); */
+    background-image:url('images/DALL·E\ 2024-09-14\ 11.37.53\ -\ A\ clean\ and\ professional\ background\ with\ a\ gradient\ in\ calming\ blue\ and\ green\ hues\,\ representing\ health\ and\ wellness.\ The\ background\ features\ subtle\ m.webp'); 
+    background-color: #981616;
+    border-radius: 30%;
+    background: transparent;
+    border: 2px solid rgb(255,255,255,.5);
+    border-radius:20px ;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 30px rgba(0, 0, 0, .5);
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+    
+}
+
+/* Heading styles */
+h1 {
+    color: #333;
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+
+/* Styling for form inputs */
+input[type="text"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: border-color 0.3s;
+}
+
+/* Input field focus effect */
+input[type="text"]:focus {
+    border-color: #007bff;
+    outline: none;
+}
+input[type="text"] :hover
+{
+    text-decoration: underline;
+}
+/* Submit button styles */
+button {
+    background-color: #007bff;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+/* Button hover effect */
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Result text styling */
+.result {
+    margin-top: 20px;
+    font-size: 16px;
+    color: #333;
+}
+a{
+    text-decoration: solid;
+    text-rendering: auto;
+}
+a:hover{
+    background-color: #0056b3;
+}
