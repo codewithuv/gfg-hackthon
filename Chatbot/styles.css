@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+#chatbox {
+    width: 400px;
+    height: 500px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+}
+
+#chatlog {
+    flex: 1;
+    padding: 10px;
+    overflow-y: auto;
+    border-bottom: 1px solid #ccc;
+}
+
+#user-input {
+    border: none;
+    padding: 10px;
+    width: calc(100% - 80px);
+    border-top: 1px solid #ccc;
+    border-radius: 0 0 0 10px;
+}
+
+#send-button {
+    border: none;
+    padding: 10px;
+    width: 80px;
+    background-color: #007BFF;
+    color: #fff;
+    border-radius: 0 0 10px 0;
+    cursor: pointer;
+}
